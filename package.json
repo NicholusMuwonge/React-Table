@@ -1,0 +1,40 @@
+{
+  "name": "table",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^6.0.3",
+    "enzyme": "^3.11.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.15",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "enzyme-adapter-react-16": "^1.15.2"
+  }
+}

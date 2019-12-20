@@ -1,0 +1,26 @@
+.table th{
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
+  border-top: 0.5 px solid rgba(128, 128, 128, 0.463);
+  border-bottom: none;
+  justify-content: left;
+  color: rgba(128, 128, 128, 0.728);
+}
+
+.table thead{
+  box-shadow: 2px 2px 2px 0px white;
+  
+}
+
+.table{
+  margin-top: 2rem;
+}
+
+input[type="search"]{
+  width: 20rem;
+  margin-left: 1rem;
+  margin-top:4rem;
+  border: 0.5px solid rgb(185, 182, 182);
+  padding: 5px;
+  border-radius:5px;
+}
