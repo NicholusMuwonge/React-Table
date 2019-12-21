@@ -107,6 +107,7 @@ const Content = () => {
         </p>
       ) : (
         <div className="container">
+          <h3>Pricing Details</h3>
           <input
             type="search"
             placeholder="Search here.."
@@ -123,10 +124,11 @@ const Content = () => {
             }}
             onClick={sortData}
           />
+          {Object.values(data).length>0?
           <table className="table table-responsive-sm">
             <thead>
               <tr>
-                <th scope="col">Project</th>
+                <th scope="col"><i class="fa fa-sort" onClick={sortData}></i>Project</th>
                 <th scope="col">Description </th>
                 <th scope="col">Start Date</th>
                 <th scope="col">Category</th>
@@ -149,7 +151,7 @@ const Content = () => {
                     )
                   )}
             </tbody>
-          </table>
+          </table>: <p className="loader">Loading ...</p>}
         </div>
       )}
     </Fragment>
