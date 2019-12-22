@@ -1,6 +1,6 @@
-import React,{Fragment} from 'react';
-import './App.css';
-import Content from './PageContent';
+import React, { Fragment } from "react";
+import "./App.css";
+import Content from "./Content/PageContent";
 
 const App = () => (
   <Fragment>

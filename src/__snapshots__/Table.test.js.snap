@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contnt/> should be able to match snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`<Table/> should match the snapshot 1`] = `"<table class=\\"table table-responsive-sm\\"><thead><tr><th scope=\\"col\\"><i class=\\"fa fa-sort\\"></i>Project</th><th scope=\\"col\\">Description </th><th scope=\\"col\\">Start Date</th><th scope=\\"col\\">Category</th><th scope=\\"col\\">Responsible</th><th scope=\\"col\\">Savings Amount</th><th scope=\\"col\\">Currency</th><th scope=\\"col\\">Complexity</th></tr></thead><tbody></tbody></table>"`;

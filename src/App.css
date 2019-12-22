@@ -53,9 +53,6 @@ h3{
 /* media queries */
 
 @media only screen and (max-width: 649px) and (min-width: 321px) {
-  input[type="search"]{
-    width: 17rem;
-  }
 
   .table{
     border:none;
@@ -77,7 +74,6 @@ h3{
 /* landscape phones */
 @media only screen and (max-width: 900px) and (min-width: 650px) {
   .table{
-    /* border:none; */
     margin-left: -2.5rem;
   }
 }
